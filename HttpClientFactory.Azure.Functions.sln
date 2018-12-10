@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D902A405-9C23-43B8-9266-E6743E7C5DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.HttpClientFactory.Azure.Functions", "samples\Demo.HttpClientFactory.Azure.Functions\Demo.HttpClientFactory.Azure.Functions.csproj", "{20FA2801-06BF-47ED-B13B-6A25AD78424E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{54207006-7E07-4E45-8FC0-63619C026EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientFactory.Azure.WebJobs.Extensions", "src\HttpClientFactory.Azure.WebJobs.Extensions\HttpClientFactory.Azure.WebJobs.Extensions.csproj", "{DCB8B0AD-E28C-45D1-BB41-9BEA468AB466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20FA2801-06BF-47ED-B13B-6A25AD78424E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FA2801-06BF-47ED-B13B-6A25AD78424E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FA2801-06BF-47ED-B13B-6A25AD78424E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FA2801-06BF-47ED-B13B-6A25AD78424E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB8B0AD-E28C-45D1-BB41-9BEA468AB466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB8B0AD-E28C-45D1-BB41-9BEA468AB466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB8B0AD-E28C-45D1-BB41-9BEA468AB466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB8B0AD-E28C-45D1-BB41-9BEA468AB466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20FA2801-06BF-47ED-B13B-6A25AD78424E} = {D902A405-9C23-43B8-9266-E6743E7C5DEE}
+		{DCB8B0AD-E28C-45D1-BB41-9BEA468AB466} = {54207006-7E07-4E45-8FC0-63619C026EB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1E29ED7-8C60-4E1C-AF92-CCFEBA34E948}
+	EndGlobalSection
+EndGlobal
