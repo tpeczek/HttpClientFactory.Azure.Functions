@@ -1,6 +1,8 @@
 # HttpClientFactory.Azure.Functions
 
-Sample showing how to use HttpClientFactory with Azure Functions.
+Sample showing how to use HttpClientFactory with Azure Functions. You can read more here:
+
+- [Alternative approach to HttpClient in Azure Functions 2.0 - bringing in HttpClientFactory](https://www.tpeczek.com/2018/12/alternative-approach-to-httpclient-in.html)
 
 ## Donating
 
