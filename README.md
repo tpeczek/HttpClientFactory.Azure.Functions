@@ -12,6 +12,6 @@ My blog and open source projects are result of my passion for software developme
 
 ## Copyright and License
 
-Copyright © 2018 Tomasz Pęczek
+Copyright © 2018 - 2019 Tomasz Pęczek
 
 Licensed under the [MIT License](https://github.com/tpeczek/HttpClientFactory.Azure.Functions/blob/master/LICENSE.md)
