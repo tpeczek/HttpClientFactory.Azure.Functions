@@ -1,5 +1,6 @@
 ﻿using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
+using Microsoft.Extensions.Http;
 using Microsoft.Extensions.DependencyInjection;
 using HttpClientFactory.Azure.WebJobs.Extensions;
 using HttpClientFactory.Azure.WebJobs.Extensions.Config;
@@ -22,6 +23,7 @@ namespace HttpClientFactory.Azure.WebJobs.Extensions
             builder.AddExtension<HttpClientFactoryExtensionConfigProvider>();
 
             builder.Services.AddHttpClient();
+            builder.Services.Configure<HttpClientFactoryOptions>(options => options.SuppressHandlerScope = true);
         }
     }
 }
