@@ -1,4 +1,10 @@
-# HttpClientFactory.Azure.Functions
+# HttpClientFactory.Azure.Functions [Archived]
+
+---
+
+**This project has been archived as this is no longer the best approach. You can read more [here](https://www.tpeczek.com/2019/10/alternative-approach-to-httpclient-in.html).**
+
+---
 
 Sample showing how to use HttpClientFactory with Azure Functions. You can read more here:
 
